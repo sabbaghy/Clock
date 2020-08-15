@@ -21,9 +21,10 @@
    border: 5px solid $bg-clr-dark;
    position: relative;
    box-shadow:
-       inset 0 0 0 4px #000,
+       inset 0 0 0 4px $bg-clr-dark,
        inset 0 0 0 8px $main-clr,
-       inset 0 0 0 12px #000;
+       inset 0 0 0 12px $sec-clr,
+       inset 0 0 0 16x $bg-clr-dark;
 
 // circulo central donde se unen las agujas
    &::after{
