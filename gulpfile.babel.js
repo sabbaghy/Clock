@@ -49,7 +49,7 @@ const cssPlugins = [cssnano(), autoprefixer()];
 // Paths
 const paths = {
    root: {
-      www: 'public',
+      www: 'docs',
    },
    src: {
       root:    'src',
